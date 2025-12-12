@@ -4,12 +4,12 @@ This document outlines the development plan for the FCCC Church App. Each phase 
 
 ## Phase 1: Project Initialization and Setup
 
-- [ ] Create the Flutter project `fccc_app` in the current directory.
-- [ ] Remove the default `flutter_test` dependency and the `test` directory.
-- [ ] Update the `pubspec.yaml` description and set the version to `0.1.0`.
-- [ ] Create a `CHANGELOG.md` file with an entry for version 0.1.0.
-- [ ] Create an initial `README.md` file.
-- [ ] Commit the initial project structure to the `main` branch with the message "feat: Initial project setup".
+- [x] Create the Flutter project `fccc_app` in the current directory.
+- [x] Remove the default `flutter_test` dependency and the `test` directory.
+- [x] Update the `pubspec.yaml` description and set the version to `0.1.0`.
+- [x] Create a `CHANGELOG.md` file with an entry for version 0.1.0.
+- [x] Create an initial `README.md` file.
+- [x] Commit the initial project structure to the `main` branch with the message "feat: Initial project setup".
 
 ## Phase 2: Core Navigation and UI Shell
 
