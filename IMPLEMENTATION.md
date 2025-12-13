@@ -85,4 +85,10 @@ This document outlines the development plan for the FCCC Church App. Each phase 
 
 ### Journal
 *This section will be updated as I complete each phase.*
+
+**2025-12-12: Phase 1 Complete**
+- Initialized the Flutter project.
+- Cleaned up default files and dependencies.
+- Established the initial project documentation (`README.md`, `CHANGELOG.md`).
+- Made the initial commit to the `main` branch.
 ---
