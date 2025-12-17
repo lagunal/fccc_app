@@ -13,13 +13,13 @@ This document outlines the development plan for the FCCC Church App. Each phase 
 
 ## Phase 2: Core Navigation and UI Shell
 
-- [ ] Add the `go_router` package for navigation.
-- [ ] Create a `lib/routing` directory and define the basic application routes (e.g., `/`, `/sermons`, `/events`, `/profile`).
-- [ ] Create placeholder `StatelessWidget` for the main screens: `HomeScreen`, `SermonsScreen`, `EventsScreen`, `ProfileScreen`.
-- [ ] Implement the main application widget (`App.dart`) with a `MaterialApp.router` configuration.
-- [ ] Add a `BottomNavigationBar` to the main screen to switch between the primary app sections.
-- [ ] Run `dart_fix`, `dart_format`, and `flutter analyze` to ensure code quality.
-- [ ] Commit changes with the message "feat: Implement basic app navigation and shell structure".
+- [x] Add the `go_router` package for navigation.
+- [x] Create a `lib/routing` directory and define the basic application routes (e.g., `/`, `/sermons`, `/events`, `/profile`).
+- [x] Create placeholder `StatelessWidget` for the main screens: `HomeScreen`, `SermonsScreen`, `EventsScreen`, `ProfileScreen`.
+- [x] Implement the main application widget (`App.dart`) with a `MaterialApp.router` configuration.
+- [x] Add a `BottomNavigationBar` to the main screen to switch between the primary app sections.
+- [x] Run `dart_fix`, `dart_format`, and `flutter analyze` to ensure code quality.
+- [x] Commit changes with the message "feat: Implement basic app navigation and shell structure".
 
 ## Phase 3: Firebase Integration
 
@@ -85,18 +85,18 @@ This document outlines the development plan for the FCCC Church App. Each phase 
 
 ## Post-Phase Checklist
 
-- [ ] Create or modify unit/widget tests for the code added or changed in this phase.
-- [ ] Run all tests to ensure they pass and that there are no regressions.
-- [ ] Thoroughly test all new features and bug fixes related to the phase.
-- [ ] Ensure all code adheres to the project's coding standards and style guidelines.
-- [ ] Run `dart fix --apply` to automatically fix any linting issues.
-- [ ] Run `dart format .` to ensure consistent code formatting.
-- [ ] Run `flutter analyze` to check for any static analysis warnings or errors.
-- [ ] Update relevant documentation (e.g., `README.md`, `DESIGN.md`) with changes or additions from the phase.
-- [ ] Use `git diff` to verify the changes, create a suitable commit message, and present it to the user for approval.
-- [ ] **Wait for user approval before committing the changes and moving to the next phase.**
-- [ ] After committing, if the app is running, use `hot_reload` or `hot_restart`.
-- [ ] Update the Journal section in `IMPLEMENTATION.md` to mark the phase as complete.
+- [x] Create or modify unit/widget tests for the code added or changed in this phase.
+- [x] Run all tests to ensure they pass and that there are no regressions.
+- [x] Thoroughly test all new features and bug fixes related to the phase.
+- [x] Ensure all code adheres to the project's coding standards and style guidelines.
+- [x] Run `dart fix --apply` to automatically fix any linting issues.
+- [x] Run `dart format .` to ensure consistent code formatting.
+- [x] Run `flutter analyze` to check for any static analysis warnings or errors.
+- [x] Update relevant documentation (e.g., `README.md`, `DESIGN.md`) with changes or additions from the phase.
+- [x] Use `git diff` to verify the changes, create a suitable commit message, and present it to the user for approval.
+- [x] **Wait for user approval before committing the changes and moving to the next phase.**
+- [x] After committing, if the app is running, use `hot_reload` or `hot_restart`.
+- [x] Update the Journal section in `IMPLEMENTATION.md` to mark the phase as complete.
 
 ---
 
@@ -108,4 +108,8 @@ This document outlines the development plan for the FCCC Church App. Each phase 
 - Cleaned up default files and dependencies.
 - Established the initial project documentation (`README.md`, `CHANGELOG.md`).
 - Made the initial commit to the `main` branch.
----
+
+**2025-12-16: Phase 2 Complete**
+- Implemented core navigation and UI shell using `go_router`.
+- Setup basic routing with a persistent `BottomNavigationBar`.
+- Completed code quality checks (dart fix, dart format, flutter analyze).
