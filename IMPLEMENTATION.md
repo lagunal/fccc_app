@@ -83,6 +83,23 @@ This document outlines the development plan for the FCCC Church App. Each phase 
 
 ---
 
+## Post-Phase Checklist
+
+- [ ] Create or modify unit/widget tests for the code added or changed in this phase.
+- [ ] Run all tests to ensure they pass and that there are no regressions.
+- [ ] Thoroughly test all new features and bug fixes related to the phase.
+- [ ] Ensure all code adheres to the project's coding standards and style guidelines.
+- [ ] Run `dart fix --apply` to automatically fix any linting issues.
+- [ ] Run `dart format .` to ensure consistent code formatting.
+- [ ] Run `flutter analyze` to check for any static analysis warnings or errors.
+- [ ] Update relevant documentation (e.g., `README.md`, `DESIGN.md`) with changes or additions from the phase.
+- [ ] Use `git diff` to verify the changes, create a suitable commit message, and present it to the user for approval.
+- [ ] **Wait for user approval before committing the changes and moving to the next phase.**
+- [ ] After committing, if the app is running, use `hot_reload` or `hot_restart`.
+- [ ] Update the Journal section in `IMPLEMENTATION.md` to mark the phase as complete.
+
+---
+
 ### Journal
 *This section will be updated as I complete each phase.*
 
